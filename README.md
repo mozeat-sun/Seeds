@@ -1,2 +1,20 @@
 # Seeds
-An adaptive software platform,based on C/C++ language, arms to defend java open source.
+* 一款夸平台以C/C++为基础的应用软件开发平台，以模块化设计为理念，提供多个通用组件，组件对外提供高度抽象C接口。
+# 功能
+* 高度抽象log打印接口；
+* 可配置的任务管理功能；
+* 异常告警处理机制；
+* HTTP客户端和服务端集成；
+* 远程升级管理功能；
+* 配置文件读写功能；
+* 数据库读写功能；
+* 支持多个broker。
+# 依赖
+* boost： 1.70.0
+* zeromq： 4.2.5
+* soci： 3.2
+* sqlite3： 3.25.3
+* openssl： 1.1.0
+* curl： 7.64.0
+* paho：
+* mysql：
